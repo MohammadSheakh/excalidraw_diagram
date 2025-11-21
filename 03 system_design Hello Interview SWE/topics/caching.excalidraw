@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "p2421LMfJgMltK_O1cPZf",
+      "type": "text",
+      "x": -149.99075317382812,
+      "y": 134.87542724609375,
+      "width": 996.6560761767628,
+      "height": 52.180999755859375,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 1886842171,
+      "version": 77,
+      "versionNonce": 802390165,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1763132885965,
+      "link": null,
+      "locked": false,
+      "text": "https://www.youtube.com/watch?v=1NngTUYPdpI",
+      "fontSize": 41.744799804687496,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "https://www.youtube.com/watch?v=1NngTUYPdpI",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
