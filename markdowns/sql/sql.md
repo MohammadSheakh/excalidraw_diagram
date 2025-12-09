@@ -96,18 +96,64 @@ SELECT <_columnName_> as <_differentColumnName_> FROM <_tableName_>
 SELECT 
 ```
 
-> 
-```
+> Order By
+```sql
+
+    select * from <_tableName_> ORDER BY <_columnName_>
+    select * from <_tableName_> ORDER BY <_columnName_> DESC
+
+    -- get unique 
+
+    select DISTINCT(*) from <_tableName_> ORDER BY <_columnName_>
+
+    -- for specific column
+    select DISTINCT( <_columnName_> ) from <_tableName_> ORDER BY <_columnName_> 
 
 ```
 
-> 
-```
+> COUNT
+```sql
+
+    select COUNT(*) from <_tableName_>
+
+    -- for specific field 
+
+    select COUNT( <_columnName_> ) AS <_nameYouWantToShowAsColumnName_> from <_tableName_>
+
+    --EX
+
+    Question One : 
+    
+    Retrieve the top 10 unique airport codes(airport_code)
+    from the airports_data table,
+    ordered in descending order of their codes.
+    --
+    SELECT DISTINCT(airport_code) FROM airports_data ORDER BY airport_code DESC LIMIT 10 
+
+    Question Two : 
+
+    Count the total number of unique seat_no values in the seats table.
+    --
+    SELECT DISTINCT(COUNT(seat_no)) as num_seats FROM seats
 
 ```
 
-> 
-```
+> FILTER
+```sql
+
+    SELECT * FROM <_tableName_> WHERE <_columnName_> < 1000
+
+    -- want to check between two values
+
+    SELECT * FROM <_tableName_> WHERE <_columnName_> = 'arived' or <_columnName_> = 'delayed'  
+
+    -- dont want NULL values
+    SELECT * FROM <_tableName_> WHERE <_columnName_> IS NOT NULL
+
+    - between two number
+
+    SELECT * FROM <_tableName_> BETWEEN 10 AND 20
+ 
 
 ```
 
